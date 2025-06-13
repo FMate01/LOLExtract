@@ -3,10 +3,10 @@ from io import BytesIO
 from enum import Enum
 import zstandard as zstd
 import gzip
-from wpkDecoder import WPKDecoder
-from bnkDecoder import BnkDecoder
-from rstDecoder import RSTDecoder
-from decoder import Decoder
+from Decoders.wpkDecoder import WPKDecoder
+from Decoders.bnkDecoder import BnkDecoder
+from Decoders.rstDecoder import RSTDecoder
+from Decoders.decoder import Decoder
 from os import mkdir, listdir
 
 class CompressionType(Enum):
