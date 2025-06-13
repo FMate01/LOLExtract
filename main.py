@@ -129,7 +129,6 @@ class WadExtractor:
         
 
 if __name__ == "__main__":
-    wad_extractor = WadExtractor("Global.hu_HU.wad.client")
-    wad_extractor.decodeFile()
-    wad_extractor = WadExtractor("Map11.hu_HU.wad.client")
+    wad_file_name = "insert wad file name here"
+    wad_extractor = WadExtractor(wad_file_name)
     wad_extractor.decodeFile()
